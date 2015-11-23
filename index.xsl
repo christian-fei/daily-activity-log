@@ -21,9 +21,14 @@
 
   <xsl:template match="event">
     <li>
-      <date><xsl:value-of select="@date"/></date>
+      <time>
+        <xsl:attribute name="datetime">
+          <xsl:value-of select="@date"/>
+        </xsl:attribute>
+        <xsl:value-of select="@date"/>
+      </time>
       <xsl:apply-templates select="action"/>
-      <div>
+      <div class="attachments">
         <xsl:apply-templates select="references"/>
         <xsl:apply-templates select="tags"/>
       </div>
@@ -31,13 +36,7 @@
   </xsl:template>
 
   <xsl:template match="action">
-    <div class="action">
-      <h1><xsl:value-of select="."/></h1>
-    </div>
-    <!--
-    <span class="action-type"><xsl:value-of select="@type"/></span>
-    <span class="event-title"><xsl:value-of select="."/></span>
-    -->
+    <h3 class="action"><xsl:value-of select="."/></h3>
   </xsl:template>
 
   <xsl:template match="tags">
