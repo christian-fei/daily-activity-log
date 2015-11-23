@@ -14,9 +14,11 @@
   </xsl:template>
 
   <xsl:template match="events">
-    <ul class="events">
-      <xsl:apply-templates select="event"/>
-    </ul>
+    <div class="events-container">
+      <ul class="events">
+        <xsl:apply-templates select="event"/>
+      </ul>
+    </div>
   </xsl:template>
 
   <xsl:template match="event">

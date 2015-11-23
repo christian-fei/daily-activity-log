@@ -9,7 +9,8 @@ body{
   font-smoothing:antialiased;
   font-weight:300;
   color:#555;
-  border-right: 100px solid black;
+  /*border-right: 200px solid black;*/
+  background: black;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -24,9 +25,13 @@ a,a:visited{
   text-decoration:none;
 }
 
+.events-container {
+  background: white;
+}
 .events {
+  max-width: 768px;
   list-style-type: none;
-  margin: 0;
+  margin: 5em auto;
   padding: 1em;
 }
 
@@ -40,7 +45,7 @@ a,a:visited{
 }
 
 .events li time {
-  opacity: 0.15;
+  opacity: 0.2;
   color: black;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
@@ -51,7 +56,9 @@ a,a:visited{
   opacity: 1;
 }
 .events li .action {
-  align-self: flex-start;
+  align-self: center;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
 }
 
 .tags li {
