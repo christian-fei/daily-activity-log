@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
-  <event date="2015-11-23">
-    <action>Something new</action>
+  <event date="2015-11-23" primary="true">
+    <action>Learning the domain of Redux</action>
     <tags>
       <tag name="redux"/>
     </tags>
+    <references>
+      <reference src="http://redux.js.org/docs/Glossary.html" type="source"></reference>
+    </references>
   </event>
   <event date="2015-11-23">
     <action>My new daily activity log</action>

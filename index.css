@@ -56,9 +56,9 @@ a,a:visited{
   opacity: 1;
 }
 .events li .action {
-  align-self: center;
   padding-left: 0.3em;
   padding-right: 0.3em;
+  padding-top: 1px;
 }
 
 .tags li {

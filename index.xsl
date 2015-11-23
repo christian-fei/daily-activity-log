@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
   <xsl:template match="/">
     <html>
       <head>
@@ -24,15 +23,17 @@
   <xsl:template match="event">
     <li>
       <time>
-        <xsl:attribute name="datetime">
+        <xsl:if test="@primary">
+          <xsl:attribute name="datetime">
+            <xsl:value-of select="@date"/>
+          </xsl:attribute>
           <xsl:value-of select="@date"/>
-        </xsl:attribute>
-        <xsl:value-of select="@date"/>
+        </xsl:if>
       </time>
       <xsl:apply-templates select="action"/>
       <div class="attachments">
-        <xsl:apply-templates select="references"/>
         <xsl:apply-templates select="tags"/>
+        <xsl:apply-templates select="references"/>
       </div>
     </li>
   </xsl:template>
@@ -70,5 +71,4 @@
     </li>
     <xsl:if test="position() != last()">, </xsl:if>
   </xsl:template>
-
 </xsl:stylesheet>
