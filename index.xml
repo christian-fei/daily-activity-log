@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
-  <event date="2015-06-23">
+  <event date="2015-11-23">
+    <action type="studying">
+      Something new
+    </action>
+    <tags>
+      <tag name="redux"/>
+    </tags>
+    <references>
+      <reference src="https://github.com/joebew42/daily-activity-log" type="source" />
+    </references>
+  </event>
+  <event date="2015-11-23">
     <action type="trying">
       My new daily activity log
     </action>
