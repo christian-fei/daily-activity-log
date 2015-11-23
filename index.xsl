@@ -14,26 +14,30 @@
   </xsl:template>
 
   <xsl:template match="events">
-    <ul class="events with-top-margin">
+    <ul class="events">
       <xsl:apply-templates select="event"/>
     </ul>
   </xsl:template>
 
   <xsl:template match="event">
     <li>
+      <date><xsl:value-of select="@date"/></date>
       <xsl:apply-templates select="action"/>
-      <br/>
-      <small>
-        <xsl:value-of select="@date"/>
+      <div>
         <xsl:apply-templates select="references"/>
         <xsl:apply-templates select="tags"/>
-      </small>
+      </div>
     </li>
   </xsl:template>
 
   <xsl:template match="action">
+    <div class="action">
+      <h1><xsl:value-of select="."/></h1>
+    </div>
+    <!--
     <span class="action-type"><xsl:value-of select="@type"/></span>
     <span class="event-title"><xsl:value-of select="."/></span>
+    -->
   </xsl:template>
 
   <xsl:template match="tags">

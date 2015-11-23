@@ -15,4 +15,16 @@ h1,h2,h3,h4,h5,h6{
 
 a,a:visited{color:#df2e2e;text-decoration:none}
 
+.events {
+  list-style-type: none;
+}
 
+.events li {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  overflow: hidden;
+}
+.events li date {
+  margin-right: 1em;
+}
