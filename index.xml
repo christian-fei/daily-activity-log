@@ -2,6 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-11-25" primary="true">
+    <action type="bookmarking">Retrospectives</action>
+    <tags>
+      <tag name="agile"/>
+    </tags>
+    <references>
+      <reference src="https://engineering.heroku.com/blogs/2014-08-14-retrospectives/" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-11-25">
     <action type="watching">Getting started with redux</action>
     <tags>
       <tag name="redux"/>
