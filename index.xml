@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-11-24" primary="true">
+    <action type="reading">The End of Dynamic Languages</action>
+    <tags>
+    </tags>
+    <references>
+      <reference src="http://elbenshira.com/blog/the-end-of-dynamic-languages/" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-11-23" primary="true">
     <action>Learning the domain of Redux</action>
     <tags>
