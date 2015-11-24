@@ -2,6 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-11-24" primary="true">
+    <action type="bookmarking">Making reliable distributed systems in the presence of sofware errors</action>
+    <tags>
+      <tag name="Erlang"/>
+    </tags>
+    <references>
+      <reference src="https://www.sics.se/~joe/thesis/armstrong_thesis_2003.pdf" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-11-24">
+    <action type="reading">What's all this fuss about Erlang?</action>
+    <tags>
+      <tag name="Erlang"/>
+    </tags>
+    <references>
+      <reference src="https://pragprog.com/articles/erlang" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-11-24">
     <action type="reading">The End of Dynamic Languages</action>
     <tags>
     </tags>
