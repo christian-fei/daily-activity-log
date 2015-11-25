@@ -81,6 +81,5 @@
         <xsl:value-of select="@type"/>
       </a>
     </li>
-    <xsl:if test="position() != last()">, </xsl:if>
   </xsl:template>
 </xsl:stylesheet>

@@ -2,6 +2,25 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-11-25" primary="true">
+    <action type="bookmarking">OTP design principles</action>
+    <tags>
+      <tag name="erlang"/>
+    </tags>
+    <references>
+      <reference src="http://www.erlang.org/doc/design_principles/des_princ.html" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-11-25">
+    <action type="reading">An Erlang application</action>
+    <tags>
+      <tag name="erlang"/>
+    </tags>
+    <references>
+      <reference src="http://www.erlang.org/doc/man/application.html" type="source"></reference>
+      <reference src="notes/an-erlang-application.txt" type="notes"></reference>
+    </references>
+  </event>
+  <event date="2015-11-25">
     <action type="bookmarking">Retrospectives</action>
     <tags>
       <tag name="agile"/>
