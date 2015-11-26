@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-11-26" primary="true">
+    <action type="reading">Redux best practices</action>
+    <tags>
+      <tag name="redux"/>
+    </tags>
+    <references>
+      <reference src="https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e#.zgxtklwd9" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-11-25" primary="true">
     <action type="bookmarking">OTP design principles</action>
     <tags>
