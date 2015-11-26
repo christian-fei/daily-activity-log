@@ -2,6 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-11-26" primary="true">
+    <action type="reading">Chapter 26, Red Bar Patterns, TDD by Example</action>
+    <tags>
+      <tag name="tdd"/>
+    </tags>
+    <references>
+    </references>
+  </event>
+  <event date="2015-11-26">
     <action type="reading">Redux best practices</action>
     <tags>
       <tag name="redux"/>
