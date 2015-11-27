@@ -93,7 +93,7 @@
   <event date="2015-11-23">
     <action>My new daily activity log</action>
     <references>
-      <reference src="https://github.com/joebew42/daily-activity-log" type="source" />
+      <reference src="http://christian.fei.ninja/Using-a-daily-activity-log-to-keep-track-of-your-studies-and-bookmarks/" type="source" />
     </references>
   </event>
 </events>
