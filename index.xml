@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-11-28" primary="true">
+    <action type="reading">Ecto</action>
+    <tags>
+      <tag name="elixir"/>
+      <tag name="db"/>
+    </tags>
+    <references>
+      <reference src="http://hexdocs.pm/ecto/Ecto.Schema.html" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-11-26" primary="true">
     <action type="reading">Chapter 26, Red Bar Patterns, TDD by Example</action>
     <tags>
