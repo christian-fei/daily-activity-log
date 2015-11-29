@@ -2,6 +2,33 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-11-29" primary="true">
+    <action type="bookmarking">RESTful API Design</action>
+    <tags>
+      <tag name="rest"/>
+    </tags>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=QpAhXa12xvU" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-11-29">
+    <action type="bookmarking">10 Design Tips For APIs</action>
+    <tags>
+      <tag name="rest"/>
+    </tags>
+    <references>
+      <reference src="https://phraseapp.com/blog/posts/best-practice-10-design-tips-for-apis/" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-11-29">
+    <action type="bookmarking">White House Web API Standards</action>
+    <tags>
+      <tag name="rest"/>
+    </tags>
+    <references>
+      <reference src="https://github.com/WhiteHouse/api-standards" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-11-29">
     <action type="bookmarking">Best Practices for Designing a Pragmatic RESTful API</action>
     <tags>
       <tag name="rest"/>
