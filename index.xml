@@ -2,6 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-11-29" primary="true">
+    <action type="bookmarking">Best Practices for Designing a Pragmatic RESTful API</action>
+    <tags>
+      <tag name="rest"/>
+    </tags>
+    <references>
+      <reference src="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-11-29"> 
     <action type="bookmarking">Representational State Transfer</action>
     <tags>
       <tag name="rest"/>
