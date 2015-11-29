@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-11-29" primary="true">
+    <action type="watching">Redux on egghead.io</action>
+    <tags>
+      <tag name="redux"/>
+    </tags>
+    <references>
+      <reference src="https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-11-28" primary="true">
     <action type="reading">Ecto</action>
     <tags>
