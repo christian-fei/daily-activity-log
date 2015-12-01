@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-12-01" primary="true">
+    <action type="bookmark">UNIDIRECTIONAL USER INTERFACE ARCHITECTURES</action>
+    <tags>
+      <tag name="ui"/>
+    </tags>
+    <references>
+      <reference src="http://staltz.com/unidirectional-user-interface-architectures.html" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-11-30" primary="true">
     <action type="video">'Ecto' ElixirConf EU 2015</action>
     <tags>
