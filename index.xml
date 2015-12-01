@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-11-30" primary="true">
+    <action type="video">'Ecto' ElixirConf EU 2015</action>
+    <tags>
+      <tag name="ecto"/>
+    </tags>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=snka1bAtZS0" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-11-29" primary="true">
     <action type="bookmarking">RESTful API Design</action>
     <tags>
