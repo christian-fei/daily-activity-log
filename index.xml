@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-12-05" primary="true">
+    <action type="bookmark">Watching Dict, Parsing XML and Command line script on Elixir Sips</action>
+    <tags>
+      <tag name="elixir"/>
+    </tags>
+    <references>
+      <reference src="http://elixirsips.com/" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-12-04" primary="true">
     <action type="bookmark">Fundamentals of graphic design</action>
     <tags>
