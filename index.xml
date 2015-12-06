@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-12-06" primary="true">
+    <action type="watching">La professione del programmatore</action>
+    <tags>
+      <tag name="agile"/>
+    </tags>
+    <references>
+    </references>
+  </event>
   <event date="2015-12-05" primary="true">
     <action type="bookmark">Watching Dict, Parsing XML and Command line script on Elixir Sips</action>
     <tags>
