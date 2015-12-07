@@ -2,12 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-12-07" primary="true">
-    <action type="watching">Classroom Coding with Prof. Frisby ep2</action>
+    <action type="watching">Redux - Simplifying application state in JavaScript</action>
     <tags>
       <tag name="fp"/>
+      <tag name="redux"/>
     </tags>
     <references>
-      <reference src="https://www.youtube.com/watch?v=oZ6C9h49bu8" type="source"></reference>
+      <reference src="https://www.youtube.com/watch?v=okdC5gcD-dM" type="source"></reference>
     </references>
   </event>
   <event date="2015-12-07">
