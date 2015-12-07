@@ -2,6 +2,16 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-12-07" primary="true">
+    <action type="watching">The land that Scrum forgot</action>
+    <tags>
+      <tag name="agile"/>
+      <tag name="scrum"/>
+    </tags>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=hG4LH6P8Syk" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-12-07">
     <action type="watching">Redux - Simplifying application state in JavaScript</action>
     <tags>
       <tag name="fp"/>
