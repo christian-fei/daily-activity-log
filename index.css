@@ -32,7 +32,7 @@ a,a:visited{
 .events {
   max-width: 1000px;
   list-style-type: none;
-  margin: 5em auto;
+  margin: 0 auto;
   padding: 1em;
 }
 
