@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2015-12-07" primary="true">
-    <action type="watching">lassroom Coding with Prof. Frisby ep2</action>
+    <action type="watching">Classroom Coding with Prof. Frisby ep2</action>
     <tags>
       <tag name="fp"/>
     </tags>
@@ -11,7 +11,7 @@
     </references>
   </event>
   <event date="2015-12-07">
-    <action type="watching">Classroom Coding with Prof. Frisby Pt1</action>
+    <action type="watching">Classroom Coding with Prof. Frisby ep1</action>
     <tags>
       <tag name="fp"/>
     </tags>
