@@ -10,6 +10,9 @@
       </head>
       <body>
         <xsl:apply-templates/>
+        <p>
+          Check out the original <a href="https://github.com/joebew42/daily-activity-log">daily activity log concept</a>
+        </p>
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
