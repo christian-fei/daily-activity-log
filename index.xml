@@ -12,6 +12,15 @@
     </references>
   </event>
   <event date="2015-12-07">
+    <action type="watching">Architecture, the lost years</action>
+    <tags>
+      <tag name="programming"/>
+    </tags>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=WpkDN78P884" type="source"></reference>
+    </references>
+  </event>
+  <event date="2015-12-07">
     <action type="watching">Redux - Simplifying application state in JavaScript</action>
     <tags>
       <tag name="fp"/>
