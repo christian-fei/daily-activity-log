@@ -37,24 +37,24 @@
 
   <xsl:template match="event">
     <li>
-      <time>
-        <xsl:if test="@primary">
+      <xsl:apply-templates select="action"/>
+      <div class="attachments">
+        <xsl:apply-templates select="references"/>
+        <xsl:apply-templates select="tags"/>
+      </div>
+      <xsl:if test="@primary">
+        <time>
           <xsl:attribute name="datetime">
             <xsl:value-of select="@date"/>
           </xsl:attribute>
           <xsl:value-of select="@date"/>
-        </xsl:if>
-      </time>
-      <xsl:apply-templates select="action"/>
-      <div class="attachments">
-        <xsl:apply-templates select="tags"/>
-        <xsl:apply-templates select="references"/>
-      </div>
+        </time>
+      </xsl:if>
     </li>
   </xsl:template>
 
   <xsl:template match="action">
-    <h3 class="action"><xsl:value-of select="."/></h3>
+    <span class="action"><xsl:value-of select="."/></span>
   </xsl:template>
 
   <xsl:template match="tags">

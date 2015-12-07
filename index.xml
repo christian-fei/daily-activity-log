@@ -76,7 +76,7 @@
     </references>
   </event>
   <event date="2015-12-01" primary="true">
-    <action type="bookmark">UNIDIRECTIONAL USER INTERFACE ARCHITECTURES</action>
+    <action type="bookmark">Unidirectional user interface architectures</action>
     <tags>
       <tag name="ui"/>
     </tags>
@@ -129,7 +129,7 @@
       <reference src="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api" type="source"></reference>
     </references>
   </event>
-  <event date="2015-11-29"> 
+  <event date="2015-11-29">
     <action type="bookmarking">Representational State Transfer</action>
     <tags>
       <tag name="rest"/>
