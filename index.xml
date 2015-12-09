@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-12-09" primary="true">
+    <action type="reading">Chapter 27, 28, 29, 30, TDD by Example</action>
+    <tags>
+      <tag name="tdd"/>
+    </tags>
+    <references>
+    </references>
+  </event>
   <event date="2015-12-07" primary="true">
     <action type="watching">The land that Scrum forgot</action>
     <tags>
