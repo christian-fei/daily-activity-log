@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-12-28" primary="true">
+    <action type="reading">Animals think, therefore…</action>
+    <tags>
+    </tags>
+    <references>
+      <reference src="http://www.economist.com/news/essays/21676961-inner-lives-animals-are-hard-study-there-evidence-they-may-be-lot-richer-science-once-thought" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-12-14" primary="true">
     <action type="reading">Finished TDD by Example</action>
     <tags>
