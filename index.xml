@@ -15,6 +15,7 @@
       <tag name="tdd"/>
     </tags>
     <references>
+      <reference src="https://www.goodreads.com/book/show/387190.Test_Driven_Development" type="source"></reference>
     </references>
   </event>
   <event date="2015-12-09" primary="true">
@@ -23,6 +24,7 @@
       <tag name="tdd"/>
     </tags>
     <references>
+      <reference src="https://www.goodreads.com/book/show/387190.Test_Driven_Development" type="source"></reference>
     </references>
   </event>
   <event date="2015-12-07" primary="true">
@@ -206,6 +208,7 @@
       <tag name="tdd"/>
     </tags>
     <references>
+      <reference src="https://www.goodreads.com/book/show/387190.Test_Driven_Development" type="source"></reference>
     </references>
   </event>
   <event date="2015-11-26">
