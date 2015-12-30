@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2015-12-30" primary="true">
+    <action type="reading">What Is Functional Programming?</action>
+    <tags>
+      <tag name="fp"/>
+    </tags>
+    <references>
+      <reference src="http://blog.jenkster.com/2015/12/what-is-functional-programming.html" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-12-28" primary="true">
     <action type="reading">Animals think, therefore…</action>
     <tags>
