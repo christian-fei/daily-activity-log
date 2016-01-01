@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2016-01-01" primary="true">
+    <action type="reading">SICP: 1A: Overview and Introduction to Lisp</action>
+    <tags>
+      <tag name="sicp"/>
+      <tag name="cs"/>
+    </tags>
+    <references>
+      <reference src="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/" type="source"></reference>
+    </references>
+  </event>
   <event date="2015-12-30" primary="true">
     <action type="reading">What Is Functional Programming?</action>
     <tags>
