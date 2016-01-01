@@ -2,6 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2016-01-01" primary="true">
+    <action type="watching">Classroom Coding with Prof. Frisby ep3</action>
+    <tags>
+      <tag name="fp"/>
+    </tags>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=mMCgJA8HScA" type="source"></reference>
+    </references>
+  </event>
+  <event date="2016-01-01">
     <action type="reading">SICP: 1A: Overview and Introduction to Lisp</action>
     <tags>
       <tag name="sicp"/>
