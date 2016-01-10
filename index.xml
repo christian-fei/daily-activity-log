@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2016-01-10" primary="true">
+    <action type="watching">Understanding GenServer</action>
+    <tags>
+      <tag name="erlang"/>
+      <tag name="elixir"/>
+    </tags>
+    <references>
+      <reference src="https://medium.com/@_santosh_/understanding-genserver-45dc36161d9f#.vqmg8sbpq" type="source"></reference>
+    </references>
+  </event>
   <event date="2016-01-01" primary="true">
     <action type="watching">Classroom Coding with Prof. Frisby ep3</action>
     <tags>
