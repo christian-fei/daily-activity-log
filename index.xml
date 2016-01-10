@@ -2,7 +2,16 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2016-01-10" primary="true">
-    <action type="watching">Understanding GenServer</action>
+    <action type="bookmarking">GenServer documentation</action>
+    <tags>
+      <tag name="erlang"/>
+    </tags>
+    <references>
+      <reference src="http://www.erlang.org/doc/man/gen_server.html" type="source"></reference>
+    </references>
+  </event>
+  <event date="2016-01-10" primary="true">
+    <action type="reading">Understanding GenServer</action>
     <tags>
       <tag name="erlang"/>
       <tag name="elixir"/>
