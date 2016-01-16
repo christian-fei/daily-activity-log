@@ -10,6 +10,15 @@
       <reference src="http://blog.cleancoder.com/uncle-bob/2016/01/04/ALittleArchitecture.html" type="source"></reference>
     </references>
   </event>
+  <event date="2016-01-16">
+    <action type="reading">Docker curriculum</action>
+    <tags>
+      <tag name="docker"/>
+    </tags>
+    <references>
+      <reference src="http://prakhar.me/docker-curriculum/" type="source"></reference>
+    </references>
+  </event>
   <event date="2016-01-10" primary="true">
     <action type="bookmarking">GenServer documentation</action>
     <tags>
