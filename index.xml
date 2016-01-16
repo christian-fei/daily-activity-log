@@ -2,6 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2016-01-16" primary="true">
+    <action type="reading">The Principles of OOD</action>
+    <tags>
+      <tag name="programming"/>
+    </tags>
+    <references>
+      <reference src="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod" type="source"></reference>
+    </references>
+  </event>
+  <event date="2016-01-16">
     <action type="reading">A Little Architecture</action>
     <tags>
       <tag name="programming"/>
