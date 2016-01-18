@@ -2,6 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2016-01-18" primary="true">
+    <action type="reading">Agile Chalk Talk: Kanban and Scrum</action>
+    <tags>
+      <tag name="agile"/>
+      <tag name="kanban"/>
+      <tag name="scrum"/>
+    </tags>
+    <references>
+      <reference src="https://www.youtube.com/watch?v=Jx6_E5XxqEo" type="source"></reference>
+    </references>
+  </event>
+  <event date="2016-01-18">
     <action type="reading">Ditching Scrum for Kanban</action>
     <tags>
       <tag name="agile"/>
