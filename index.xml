@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2016-01-18" primary="true">
+    <action type="reading">Ditching Scrum for Kanban</action>
+    <tags>
+      <tag name="agile"/>
+      <tag name="kanban"/>
+    </tags>
+    <references>
+      <reference src="https://medium.com/cto-school/ditching-scrum-for-kanban-the-best-decision-we-ve-made-as-a-team-cd1167014a6f#.wlnoyqgng" type="source"></reference>
+    </references>
+  </event>
   <event date="2016-01-16" primary="true">
     <action type="reading">The Principles of OOD</action>
     <tags>
