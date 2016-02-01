@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2016-02-01" primary="true">
+    <action type="reading">Principles of OOD</action>
+    <tags>
+      <tag name="oo"/>
+      <tag name="solid"/>
+    </tags>
+    <references>
+      <reference src="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod" type="source"></reference>
+    </references>
+  </event>
   <event date="2016-01-18" primary="true">
     <action type="reading">Agile Chalk Talk: Kanban and Scrum</action>
     <tags>
