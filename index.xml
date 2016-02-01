@@ -2,6 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
   <event date="2016-02-01" primary="true">
+    <action type="reading">VPN</action>
+    <tags>
+    </tags>
+    <references>
+      <reference src="https://en.wikipedia.org/wiki/Virtual_private_network" type="source"></reference>
+    </references>
+  </event>
+  <event date="2016-02-01">
     <action type="reading">Principles of OOD</action>
     <tags>
       <tag name="oo"/>
