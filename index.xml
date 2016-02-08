@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2016-02-07" primary="true">
+    <action type="reading">How to Stop Worrying and Start Living</action>
+    <tags>
+    </tags>
+    <references>
+      <reference src="https://www.goodreads.com/book/show/4866.How_to_Stop_Worrying_and_Start_Living" type="source"></reference>
+    </references>
+  </event>
+  <event date="2016-02-07" primary="true">
+    <action type="reading">Lean Software Development</action>
+    <tags>
+      <tag name="lean"/>
+      <tag name="agile"/>
+    </tags>
+    <references>
+      <reference src="https://www.goodreads.com/book/show/194338.Lean_Software_Development" type="source"></reference>
+    </references>
+  </event>
   <event date="2016-02-01" primary="true">
     <action type="reading">VPN</action>
     <tags>
