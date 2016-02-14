@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <events>
+  <event date="2016-02-14" primary="true">
+    <action type="reading">Introduction to the Build Lifecycle</action>
+    <tags>
+      <tag name="java"/>
+      <tag name="maven"/>
+    </tags>
+    <references>
+      <reference src="https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html" type="source"></reference>
+    </references>
+  </event>
+  <event date="2016-02-14">
+    <action type="reading">Maven in 5 Minutes</action>
+    <tags>
+      <tag name="java"/>
+      <tag name="maven"/>
+    </tags>
+    <references>
+      <reference src="https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html" type="source"></reference>
+    </references>
+  </event>
   <event date="2016-02-07" primary="true">
     <action type="reading">How to Stop Worrying and Start Living</action>
     <tags>
